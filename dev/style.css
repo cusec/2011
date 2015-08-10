@@ -1,0 +1,239 @@
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	html {
+		background-repeat: repeat-x;
+		background-image: url(bgtest.jpg);
+		font-size: 12px;
+		font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+		background-color: #333333;
+	}
+
+	#wrapper {
+		border-right-color: #191919;
+		border-right-style: solid;
+		border-right-width: 2px;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		width: 560px;
+	}
+
+	.post {
+		background-position: 0 bottom;
+		background-repeat: repeat-x;
+		background-image: url(shade.png);
+		padding-top: 10px;
+	}
+
+	.post:hover {
+		background-color: #e6e6e6;
+	}
+
+	.cusec {
+		background-repeat: no-repeat;
+		background-color: #3b8fd2;
+		border-left-color: #142851;
+	}
+
+	.cusec:hover {
+		background-color: #357fb6;
+		border-left-color: #142851;
+	}
+
+	img.left {
+		padding-left: 10px;
+		padding-top: 5px;
+		float: left;
+	}
+
+	.right {
+		padding-bottom: 10px;
+		width: 490px;
+		float: right;
+	}
+
+	hr {
+		border-right-width: 0px;
+		border-left-width: 0px;
+		border-top-width: 0px;
+		border-bottom-width: 1px;
+		border-bottom-color: #b3b3b3;
+		border-bottom-style: dotted;
+		clear: both;
+		height: 0px;
+	}
+
+	p.author {
+		font-weight: bold;
+	}
+
+	p.author span {
+		font-size: 12px;
+		color: #b3b3b3;
+	}
+
+	p.time {
+		margin-top: 5px;
+		color: #828282;
+		font-size: 12px;
+	}
+
+	p.time span {
+		background-color: #ececec;
+	}
+
+	.cusec p.time span {
+		color: #464646;
+		background-color: #3783bd;
+	}
+
+	a.via {
+		color: #9a9a9a;
+		text-decoration: underline;
+	}
+
+	.cusec a.via {
+	color: #22547b;
+	}
+a {
+		color: #4c4c4c;
+		text-decoration: none;
+	}
+
+	#nav {
+		margin-left: 5px;
+		padding-bottom: 10px;
+	}
+
+	#title {
+		padding: 5px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	h1 {
+		color: red;
+		font-size: 12px;
+	}
+	
+
+.button {
+display: inline-block;
+zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+*display: inline;
+vertical-align: baseline;
+margin: 0 2px;
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: 14px/100% Arial, Helvetica, sans-serif;
+padding: .5em 2em .55em;
+text-shadow: 0 1px 1px rgba(0,0,0,.3);
+-webkit-border-radius: .5em;
+-moz-border-radius: .5em;
+border-radius: .5em;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+text-decoration: none;
+}
+.button:active {
+position: relative;
+top: 1px;
+}
+
+.medium {
+padding-left: 1.55em;
+padding-bottom: 0.4em;
+padding-right: 1.55em;
+padding-top: .4em;
+font-size: 12px;
+}
+
+
+/* white */
+.white {
+color: #606060;
+border: solid 1px #b7b7b7;
+background: #fff;
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+background: -moz-linear-gradient(top, #fff, #ededed);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+background: #ededed;
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+background: -moz-linear-gradient(top, #fff, #dcdcdc);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+color: #999;
+background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+background: -moz-linear-gradient(top, #ededed, #fff);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.box {
+		margin-left: 6px;
+		margin-top: 10px;
+		float: left;
+		height: 68px;
+		width: 135px;
+		
+	}
+
+	br {
+	clear: both;
+}
+#title span {
+	font-size: 18px;
+	color: #666666;
+}
+#ibm {
+	padding-top: 15px;
+	padding-right: 99px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-image: url(ibm.jpg);
+	height: 35px;
+	color: gray;
+	margin-right: 10px;
+	text-align: right;
+}
+.star {
+	background-position: 535px -15px;
+	background-repeat: no-repeat;
+	background-image: url(star.png);
+}
+p.c {
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+}
+img {
+	border-width: 0px;
+}
+p.s {
+	font-size: 12px;
+}
+#logo {
+	margin: 5px;
+	width: 102px;
+	float: left;
+}
+#right {
+	margin-top: 10px;
+	margin-right: 90px;
+	width: 355px;
+	float: right;
+}
+hr.clear {
+	height: 0px;
+	border-width: 0px;
+}
